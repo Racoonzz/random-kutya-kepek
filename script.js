@@ -1,4 +1,4 @@
-function kiirRandomKep(fajta){
+function kiir(fajta){
     fetch(`https://dog.ceo/api/breed/${fajta}/images/random`)
     .then(adat=>adat.json())
     .then(res => {
