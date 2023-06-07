@@ -1,4 +1,12 @@
 function kiir(){
+    fetch("https://dog.ceo/api/breed/dachshund/images/random")
+    .then(adat=>adat.json())
+    .then(res => {
+        document.getElementById("kep").src = res["message"]
+    })
+}
+
+function kiir1(){
     fetch("https://dog.ceo/api/breed/images/random")
     .then(adat=>adat.json())
     .then(res => {
@@ -6,7 +14,7 @@ function kiir(){
     })
 }
 
-function kiir(){
+function kiir2(){
     fetch("https://dog.ceo/api/breed/images/random")
     .then(adat=>adat.json())
     .then(res => {
@@ -14,7 +22,7 @@ function kiir(){
     })
 }
 
-function kiir(){
+function kiir3(){
     fetch("https://dog.ceo/api/breed/images/random")
     .then(adat=>adat.json())
     .then(res => {
@@ -22,15 +30,7 @@ function kiir(){
     })
 }
 
-function kiir(){
-    fetch("https://dog.ceo/api/breed/images/random")
-    .then(adat=>adat.json())
-    .then(res => {
-        document.getElementById("kep").src = res["message"]
-    })
-}
-
-function kiir(){
+function kiir4(){
     fetch("https://dog.ceo/api/breed/images/random")
     .then(adat=>adat.json())
     .then(res => {
