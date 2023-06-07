@@ -11,6 +11,10 @@ h1, p{
 }
  form{
     text-align: center;
-    display: ;
+ }
+
+ button{
+    display: inline-block;
+    margin: 10px;
  }
 
